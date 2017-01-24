@@ -35,6 +35,10 @@ brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
 
+# Install nodejs version manager
+brew install nvm
+mkdir ~/.nvm
+
 # Install other useful binaries.
 brew install ack
 brew install dark-mode
