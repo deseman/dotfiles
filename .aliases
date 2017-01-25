@@ -160,5 +160,8 @@ alias reload="exec $SHELL -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-# Generate iban and set to clipboard
-alias iban='curl -s https://www.generateiban.com/test-iban/ | pup "#iban text{}" | pbcopy'
+# Generate iban
+alias iban='curl -s https://www.generateiban.com/test-iban/ | pup "#iban text{}" | pbcopy && pbpaste && echo'
+
+# Generate uuid
+alias uuid="python -c 'import sys,uuid; sys.stdout.write(uuid.uuid4().hex)' | pbcopy && pbpaste && echo"
