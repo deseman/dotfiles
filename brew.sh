@@ -45,6 +45,7 @@ brew install dark-mode
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
+brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
 
 # utilities
 brew cask install 'ngrok'
