@@ -46,3 +46,9 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# Add all pem files in ~/.ssh/ to the ssh-agent
+for file in ~/.ssh/*.pem; do
+	ssh-add "$file" &> /dev/null
+done;
+unset file;

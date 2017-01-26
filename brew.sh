@@ -45,7 +45,12 @@ brew install dark-mode
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
+# pup - command line html parser
 brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
+# auto correct last command
+brew install thefuck
+# quick jump to folders
+brew install autojump
 
 # utilities
 brew cask install 'ngrok'
