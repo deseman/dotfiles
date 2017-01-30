@@ -51,6 +51,8 @@ brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
 brew install thefuck
 # quick jump to folders
 brew install autojump
+#  command line interface for mac app store
+brew install mas
 
 # utilities
 brew cask install 'ngrok'
@@ -96,3 +98,17 @@ brew cask install 'qlvideo'
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# install mac app store apps
+# Xcode
+mas install 497799835
+# Microsoft Remote Desktop
+mas install 715768417
+# Snagit
+mas install 492729790
+# WhatsApp
+mas install 1147396723
+# Power JSON
+mas install 499768540
+# SSH Tunnel
+mas install 734418810
