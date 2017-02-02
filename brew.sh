@@ -49,8 +49,6 @@ brew install imagemagick --with-webp
 brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
 # auto correct last command
 brew install thefuck
-# quick jump to folders
-brew install autojump
 #  command line interface for mac app store
 brew install mas
 
@@ -78,6 +76,7 @@ brew cask install 'spectacle'
 brew cask install '1password'
 brew cask install 'dropbox'
 brew cask install 'hyper'
+brew cask install 'clipmenu'
 
 # media
 brew cask install 'vlc'
