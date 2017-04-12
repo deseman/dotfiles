@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Install command-line tools using Homebrew.
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -100,13 +101,13 @@ brew cleanup
 
 # install mac app store apps
 # Xcode
-mas install 497799835
+#mas install 497799835
 # Microsoft Remote Desktop
-mas install 715768417
+#mas install 715768417
 # Snagit
-mas install 492729790
+#mas install 492729790
 # WhatsApp
-mas install 1147396723
+#mas install 1147396723
 # Power JSON
 mas install 499768540
 # SSH Tunnel
